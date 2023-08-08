@@ -30,6 +30,7 @@ const highlights = [
   'Ultra-soft 100% cotton',
 ]
 
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }

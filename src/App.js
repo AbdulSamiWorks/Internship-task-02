@@ -13,6 +13,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import PostsPage from './pages/PostsPage';
 import PostDetailPage from './pages/PostDetailPage';
+import PageNotFound from './pages/404';
 
 
 
@@ -32,6 +33,7 @@ function App() {
           <Route path='/signup' element={<Signup />} />
           <Route path='/blog' element={<PostsPage />} />
           <Route path='/posts/:id' element={<PostDetailPage />} />
+          <Route path='*' element={<PageNotFound />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
